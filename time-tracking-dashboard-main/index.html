@@ -11,9 +11,11 @@
   <link rel="stylesheet" href="styles/index.css" />
   <link rel="stylesheet" href="styles/cardboard.css" />
   <link rel="stylesheet" href="styles/background.css" />
+
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <main>
+  <main id="container">
     <header>
       <div class="user-info">
         <img src="images/image-jeremy.png" alt="User Jeremy">
@@ -21,13 +23,12 @@
         <h1>Jeremy Robson</h1>
       </div>
       <ul class="calendar">
-        <li>Daily</li>
-        <li class="active">Weekly</li>
-        <li>Monthly</li>
+        <li onclick="changeActivePeriod('daily')">Daily</li>
+        <li onclick="changeActivePeriod('weekly')" class="active">Weekly</li>
+        <li onclick="changeActivePeriod('monthly')">Monthly</li>
       </ul>
     </header>
-    <!-- CARDBOARD 1 -->
-    <div class="cardboard">
+    <!-- <div class="cardboard">
       <div class="background work">
         <img src="images/icon-work.svg" alt="">
       </div>
@@ -40,7 +41,6 @@
         <small>Last Week - 36hrs</small>
       </div>
     </div>
-    <!-- CARDBOARD 2 -->
     <div class="cardboard">
       <div class="background play">
         <img src="images/icon-play.svg" alt="">
@@ -54,7 +54,6 @@
         <small>Last Week - 8hrs</small>
       </div>
     </div>
-    <!-- CARDBOARD 3 -->
     <div class="cardboard">
       <div class="background study">
         <img src="images/icon-study.svg" alt="">
@@ -68,7 +67,6 @@
         <small>Last Week - 7hrs</small>
       </div>
     </div>
-    <!-- CARDBOARD 4 -->
     <div class="cardboard">
       <div class="background exercise">
         <img src="images/icon-exercise.svg" alt="">
@@ -82,7 +80,6 @@
         <small>Last Week - 5hrs</small>
       </div>
     </div>
-    <!-- CARDBOARD 5 -->
     <div class="cardboard">
       <div class="background social">
         <img src="images/icon-social.svg" alt="">
@@ -96,7 +93,6 @@
         <small>Last Week - 10hrs</small>
       </div>
     </div>
-    <!-- CARDBOARD 6 -->
     <div class="cardboard">
       <div class="background self-care">
         <img src="images/icon-self-care.svg" alt="">
@@ -109,7 +105,7 @@
         <h2>2hrs</h2>
         <small>Last Week - 2hrs</small>
       </div>
-    </div>
+    </div> -->
   </main>
 </body>
 </html>

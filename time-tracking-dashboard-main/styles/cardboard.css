@@ -2,6 +2,7 @@
   position: relative;
   border-radius: 0 0 0.75rem 0.75rem;
   transition: 0.4s border-radius;
+  min-height: 213px;
 }
 
 .background img {
