@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="styles/cardboard.css" />
   <link rel="stylesheet" href="styles/background.css" />
 
-  <script src="script.js" defer></script>
+  <script src="scripts/index.js" defer></script>
 </head>
 <body>
   <main id="container">
@@ -23,89 +23,11 @@
         <h1>Jeremy Robson</h1>
       </div>
       <ul class="calendar">
-        <li onclick="changeActivePeriod('daily')">Daily</li>
-        <li onclick="changeActivePeriod('weekly')" class="active">Weekly</li>
-        <li onclick="changeActivePeriod('monthly')">Monthly</li>
+        <li id="calendar-option-daily" onclick="changeCalendarPeriod('daily')">Daily</li>
+        <li id="calendar-option-weekly" onclick="changeCalendarPeriod('weekly')" class="active">Weekly</li>
+        <li id="calendar-option-monthly" onclick="changeCalendarPeriod('monthly')" class="">Monthly</li>
       </ul>
     </header>
-    <!-- <div class="cardboard">
-      <div class="background work">
-        <img src="images/icon-work.svg" alt="">
-      </div>
-      <div class="cardboard-info">
-        <div class="cardboard-tag">
-          <strong>Word</strong>
-          <img src="images/icon-ellipsis.svg" alt="">
-        </div>
-        <h2>32hrs</h2>
-        <small>Last Week - 36hrs</small>
-      </div>
-    </div>
-    <div class="cardboard">
-      <div class="background play">
-        <img src="images/icon-play.svg" alt="">
-      </div>
-      <div class="cardboard-info">
-        <div class="cardboard-tag">
-          <strong>Play</strong>
-          <img src="images/icon-ellipsis.svg" alt="">
-        </div>
-        <h2>10hrs</h2>
-        <small>Last Week - 8hrs</small>
-      </div>
-    </div>
-    <div class="cardboard">
-      <div class="background study">
-        <img src="images/icon-study.svg" alt="">
-      </div>
-      <div class="cardboard-info">
-        <div class="cardboard-tag">
-          <strong>Study</strong>
-          <img src="images/icon-ellipsis.svg" alt="">
-        </div>
-        <h2>4hrs</h2>
-        <small>Last Week - 7hrs</small>
-      </div>
-    </div>
-    <div class="cardboard">
-      <div class="background exercise">
-        <img src="images/icon-exercise.svg" alt="">
-      </div>
-      <div class="cardboard-info">
-        <div class="cardboard-tag">
-          <strong>Exercise</strong>
-          <img src="images/icon-ellipsis.svg" alt="">
-        </div>
-        <h2>4hrs</h2>
-        <small>Last Week - 5hrs</small>
-      </div>
-    </div>
-    <div class="cardboard">
-      <div class="background social">
-        <img src="images/icon-social.svg" alt="">
-      </div>
-      <div class="cardboard-info">
-        <div class="cardboard-tag">
-          <strong>Social</strong>
-          <img src="images/icon-ellipsis.svg" alt="">
-        </div>
-        <h2>5hrs</h2>
-        <small>Last Week - 10hrs</small>
-      </div>
-    </div>
-    <div class="cardboard">
-      <div class="background self-care">
-        <img src="images/icon-self-care.svg" alt="">
-      </div>
-      <div class="cardboard-info">
-        <div class="cardboard-tag">
-          <strong>Word</strong>
-          <img src="images/icon-ellipsis.svg" alt="">
-        </div>
-        <h2>2hrs</h2>
-        <small>Last Week - 2hrs</small>
-      </div>
-    </div> -->
   </main>
 </body>
 </html>
