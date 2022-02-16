@@ -18,7 +18,9 @@
   </a>
 </p>
 
-## 💻 Desafio 01: Time tracking dashboard
+## 📓 Desafio 01 - Time tracking dashboard
+
+### Para acessar o código, [clique aqui](https://github.com/leovargasdev/frontendmentor/tree/master/time-tracking-dashboard-main).
 
 <p align="center">
   <img src=".github/preview-desafio-01.png" width="100%" />
