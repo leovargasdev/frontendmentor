@@ -7,13 +7,11 @@
 - [Acessar post da solução proposta no Frontend Mentor.](https://www.frontendmentor.io/solutions/respositrio-do-desafio-mU6Ut9PVb)
 
 ## 💻 Tecnologias
-<hr />
 
 -  HTML
 -  CSS
 -  JavaScript
 ## 💪 Desafio
-<hr />
 
 Criar um painel de monitoramento das atividades diárias. Os cards foram montados de forma dinâmica com _javascript_, os dados usados estão no arquivo `data.json`.
 
