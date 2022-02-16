@@ -2,15 +2,18 @@
   Desafio 01 - Time tracking dashboard
 </h1>
 
-<p align="center">
-  Esta é uma solução para o desafio <a href="https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw" target="_blank">Time tracking dashboard challenge</a> do <b>Frontend Mentor</b>
-</p>
+- [Acessar deploy da solução no **Netlify**.](https://confident-wescoff-253edc.netlify.app/)
+- [Descrição do desafio no frontend Mentor.](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw)
+- [Acessar post da solução proposta no Frontend Mentor.](https://www.frontendmentor.io/solutions/respositrio-do-desafio-mU6Ut9PVb)
 
+## 💻 Tecnologias
+<hr />
 
-
-![Design preview for the Time tracking dashboard coding challenge](./design/desktop-preview.jpg)
-
-# 💪 Desafio
+-  HTML
+-  CSS
+-  JavaScript
+## 💪 Desafio
+<hr />
 
 Criar um painel de monitoramento das atividades diárias. Os cards foram montados de forma dinâmica com _javascript_, os dados usados estão no arquivo `data.json`.
 
@@ -20,10 +23,6 @@ Os usuários devem ser capazes de:
 - Veja os estados de foco para todos os elementos interativos na página
 - Alternar entre a visualização de estatísticas diárias, semanais e mensais
 
-# 💻 Tecnologias
+Layout proposto:
 
-Dependências usadas no projeto:
-
--  HTML
--  CSS
--  JavaScript
+![Design preview for the Time tracking dashboard coding challenge](./design/desktop-preview.jpg)
