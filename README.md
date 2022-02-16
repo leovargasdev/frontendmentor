@@ -18,7 +18,7 @@
   </a>
 </p>
 
-## [📓 Desafio 01 - Time tracking dashboard](https://github.com/leovargasdev/frontendmentor/tree/master/time-tracking-dashboard-main)
+## [📓 Desafio 01 - Time tracking dashboard](https://github.com/leovargasdev/frontendmentor/tree/master/time-tracking-dashboard)
 
 <p align="center">
   <img src=".github/preview-desafio-01.png" width="100%" />
