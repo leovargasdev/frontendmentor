@@ -1,5 +1,5 @@
 <h1 align="center">
-  Desafio 01 - Time tracking dashboard solution
+  Desafio 01 - Time tracking dashboard
 </h1>
 
 <p align="center">
