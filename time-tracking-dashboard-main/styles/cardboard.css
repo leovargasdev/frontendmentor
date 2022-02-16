@@ -68,7 +68,7 @@
 
 @media (max-width: 950px) {
   .cardboard {
-    min-height: 170px;
+    min-height: 140px;
   }
 
   .cardboard:hover .cardboard-info {
@@ -96,5 +96,11 @@
   .cardboard-info small {
     align-self: center;
     text-align: right;
+  }
+}
+
+@media (max-width: 550px) {
+  .cardboard {
+    min-height: 160px;
   }
 }

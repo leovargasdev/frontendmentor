@@ -91,14 +91,15 @@ header {
 @media(max-width: 950px){
   main {
     padding: 1.5rem 0;
-    max-width: 340px;
-    grid-template-columns: 1fr;
+    max-width: 500px;
+    grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
   }
 
   header {
     align-items: stretch;
     grid-row: 1;
+    grid-column: 1 / 3;
   }
 
   .user-info {
@@ -131,4 +132,14 @@ header {
   }
 }
 
+@media(max-width: 550px){
+  main {
+    max-width: 340px;
+    grid-template-columns: 1fr;
+  }
+
+  header {
+    grid-column: 1;
+  }
+}
 
