@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* color: hsl(246, 80%, 60%);
+  color: hsl(15, 100%, 70%);
+  color: hsl(195, 74%, 62%);
+  color: hsl(348, 100%, 68%);
+  color: hsl(145, 58%, 55%);
+  color: hsl(264, 64%, 52%);
+  color: hsl(43, 84%, 65%);
+
+  color: hsl(226, 43%, 10%);
+  color: hsl(235, 46%, 20%);
+  color: hsl(235, 45%, 61%);
+  color: hsl(236, 100%, 87%); */
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: hsl(226, 43%, 10%);
+  display: flex;
+
+  font-family: 'Rubik', sans-serif;
+  color: #fff;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin: auto;
+
+  width: 100%;
+  max-width: 950px;
+}
+
+
+header, .cardboard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+header {
+  grid-row: 1 / 3;
+  background: hsl(235, 46%, 20%);
+  border-radius: 12px;
+}
+
+.user-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem 4rem;
+  border-radius: 12px;
+  background: hsl(246, 80%, 60%);
+}
+
+.user-info img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+
+  margin-bottom: 3rem;
+}
+
+.user-info span {
+  font-size: 0.75rem;
+  color: hsl(236, 100%, 87%);
+}
+
+.user-info h1 {
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin-top: 0.25rem;
+}
+
+.calendar {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  padding: 2rem;
+}
+
+.calendar li {
+  font-size: 0.875rem;
+  opacity: 0.4;
+}
+
+.calendar li.active {
+  opacity: 1;
+}
+
+.calendar li:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+

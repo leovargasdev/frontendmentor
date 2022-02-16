@@ -1,0 +1,66 @@
+.cardboard {
+  position: relative;
+  border-radius: 0 0 0.75rem 0.75rem;
+  transition: 0.4s border-radius;
+}
+
+.background img {
+  width: 60px;
+  height: 60px;
+
+  margin-left: auto;
+}
+
+.cardboard-info {
+  width: 100%;
+  height: 98%;
+  margin-top: auto;
+  border-radius: 0 0 0.75rem 0.75rem;
+  background: hsl(235, 46%, 20%);
+  z-index: 2;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 1.5rem;
+
+  transition: 0.4s all;
+}
+
+.cardboard:hover, .cardboard:hover .cardboard-info{
+  border-radius: 0.75rem;
+}
+
+.cardboard:hover .cardboard-info {
+  cursor: pointer;
+  height: 78%;
+  background: hsl(235, 45%, 61%);
+}
+
+.cardboard-info .cardboard-tag {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardboard-tag strong {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.cardboard-tag img {
+  width: 20px;
+  height: 5px;
+}
+
+.cardboard-info h2 {
+  margin: auto 0 0.5rem;
+
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.cardboard-info small {
+  font-size: 0.875rem;
+  color: hsl(236, 100%, 87%);
+}

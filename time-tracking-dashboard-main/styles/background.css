@@ -1,0 +1,40 @@
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0 1rem 1rem;
+  padding: 0 0.5rem;
+  display: flex;
+
+  transition: 0.4s border-radius;
+}
+
+.cardboard:hover .background {
+  border-radius: 0.75rem 0.75rem 1rem 1rem;
+}
+
+.background.work {
+  background: hsl(15, 100%, 70%);
+}
+
+.background.play {
+  background: hsl(195, 74%, 62%);
+}
+
+.background.study {
+  background: hsl(348, 100%, 68%);
+}
+
+.background.exercise {
+  background: hsl(145, 58%, 55%);
+}
+
+.background.social {
+  background: hsl(264, 64%, 52%);
+}
+
+.background.self-care {
+  background: hsl(43, 84%, 65%);
+}
