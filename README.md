@@ -23,3 +23,9 @@
 <p align="center">
   <img src=".github/preview-desafio-01.png" width="100%" />
 </p>
+
+## [📓 Desafio 02 - Huddle landing page](https://github.com/leovargasdev/frontendmentor/tree/master/desafio-02)
+
+<p align="center">
+  <img src=".github/preview-desafio-02.png" width="100%" />
+</p>
